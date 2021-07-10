@@ -27,7 +27,7 @@
     @media (min-width: 1336px) {
         height: 65rem;
         width: calc(100% - 65rem);
-        padding: 2rem 0 2rem 6rem;
+        padding: 3rem 0 2rem 6rem;
     }
 }
 
@@ -254,6 +254,13 @@
     }
     @media (min-width: 1366px) {
         margin-top: 28rem;
+        li {
+            margin-right: 1rem;
+            span {
+                color: $tomato;
+                font-size: 3rem;
+            }
+        }
     }
 }
 
@@ -271,6 +278,10 @@
     @media (min-width: 1118px) {
         font-size: 1.2rem;
         line-height: 2.4rem;
+    }
+    @media (min-width: 1366px) {
+        font-size: 1.4rem;
+        line-height: 2.8rem;
     }
 }
 
