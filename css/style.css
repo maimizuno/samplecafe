@@ -1722,8 +1722,6 @@ main {
 }
 
 .about-button {
-  -webkit-transition-delay: .4s;
-          transition-delay: .4s;
   text-align: center;
   margin-left: 3rem;
   width: 15rem;
@@ -1747,8 +1745,6 @@ main {
 
 @media (min-width: 768px) {
   .about-button {
-    -webkit-transition-delay: .5s;
-            transition-delay: .5s;
     margin-left: 8rem;
     width: 28%;
   }
@@ -1861,8 +1857,6 @@ main {
 
 .about-img {
   width: 14.5rem;
-  -webkit-transition-delay: .5s;
-          transition-delay: .5s;
 }
 
 @media (min-width: 768px) {
@@ -2270,13 +2264,26 @@ main {
   }
 }
 
+@media (min-width: 1450px) {
+  .pastry {
+    top: -1rem;
+    right: 37%;
+  }
+}
+
+@media (min-width: 1490px) {
+  .pastry {
+    right: 40%;
+  }
+}
+
 @media (min-width: 1500px) {
   .pastry {
     right: 28.5rem;
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1600px) {
   .pastry {
     right: 39rem;
   }
@@ -2348,6 +2355,12 @@ main {
 @media (min-width: 1366px) {
   .menu-text-box1 {
     width: 36%;
+  }
+}
+
+@media (min-width: 1450px) {
+  .menu-text-box1 {
+    width: 40%;
   }
 }
 
