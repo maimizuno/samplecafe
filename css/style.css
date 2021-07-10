@@ -2426,6 +2426,12 @@ main {
   }
 }
 
+@media (min-width: 1366px) {
+  .menu-text-box3 {
+    width: 40%;
+  }
+}
+
 .menu1-img {
   display: inline-block;
   position: absolute;
