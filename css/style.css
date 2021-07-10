@@ -2267,13 +2267,13 @@ main {
 @media (min-width: 1450px) {
   .pastry {
     top: -1rem;
-    right: 37%;
+    right: 24rem;
   }
 }
 
 @media (min-width: 1490px) {
   .pastry {
-    right: 40%;
+    right: 28rem;
   }
 }
 
