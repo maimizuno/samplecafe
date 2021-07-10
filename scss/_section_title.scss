@@ -1,0 +1,13 @@
+//
+// section
+//
+
+
+.section-heading {
+    text-align: center;
+    padding-right: 2rem;
+    transition-delay: .1s;
+    @media (min-width: 768px) {
+        padding-right: 0;
+    }
+}

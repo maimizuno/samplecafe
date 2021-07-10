@@ -1,0 +1,155 @@
+
+//
+// base style
+//
+
+
+// 変数
+$tomato: #EA9C75;
+$tomato2: #EBAB8B;
+$salmon: #F5D0B5;
+$salmon2: #F5C6A3;
+$egg: #F7F3DF;
+$avocado: #C0CEA1;
+$avocado2: #A4B284;
+$black: #4C4C4D;
+$slate: #606060;
+$mouse: #707070;
+$white: #fff;
+//border
+$defaultBorder: solid 1px $salmon;
+$defaultBorderEgg: solid 1px $egg;
+$defaultBorderBlack: solid 1px $black;
+//outline
+$defaultOutline: solid 1px $salmon;
+$defaultOutlineOffset: 2px;
+$defaultOutlineEgg: solid 1px $egg;
+
+
+// animation
+$defaultDuration: .3s;
+
+// base
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'yrsa', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: $mouse;
+    @media (min-width: 768px) {
+        font-size: 1.6rem;
+    }
+    @media (min-width: 1118px) {
+        font-size: 1.8rem;
+    }
+}
+
+a {
+    color: $egg;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+    @media (min-width: 1118px) {
+        max-width: unset;
+    }
+}
+
+h1 {
+    font-family: 'parkside', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: $salmon;
+    margin: 0;
+    @media (min-width: 768px) {
+        font-size: 5.8rem;
+    }
+    @media (min-width: 835px) {
+        font-size: 5.6rem;
+    }
+    @media (min-width: 900px) {
+        font-size: 7rem;
+        margin-top: 2rem;
+    }
+    @media (min-width: 1118px) {
+        margin-top: 5.5rem;
+        font-size: 7.6rem;
+        line-height: 8.74rem;
+    }
+}
+h2 {
+    display: inline-block;
+    font-family: 'yrsa', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: $black;
+    border-bottom: $defaultBorderBlack;
+    margin: 0 0 1.5rem;
+    @media (min-width: 768px) {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    @media (min-width: 900px) {
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+h3 {
+    font-family: 'parkside', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.4rem;
+    color: $tomato;
+    margin: 0;
+    transform: rotate(-45deg);
+    opacity: 0.5;
+    @media (min-width: 768px) {
+        font-size: 5.8rem;
+    }
+    @media (min-width: 900px) {
+        font-size: 6.5rem;
+    }
+}
+
+p {
+    margin: 0;
+    line-height: 1.8rem;
+    @media (min-width: 768px) {
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+    @media (min-width: 900px) {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+    @media (min-width: 1118px) {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+    @media (min-width: 1366px) {
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+}
+
+small {
+    font-size: 1rem;
+    color: $black;
+    @media (min-width: 768px) {
+        font-size: 1.4rem;
+    }
+    @media (min-width: 1118px) {
+        font-size: 1.8rem;
+    }
+}

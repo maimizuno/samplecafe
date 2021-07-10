@@ -1,0 +1,70 @@
+//
+//icons
+//
+
+.icon-ribon:before {
+    content: "\e902";
+    color: $avocado;
+    font-size: 2rem;
+    @media (min-width: 768px) {
+        font-size: 2.5rem;
+    }
+    @media (min-width: 900px) {
+        font-size: 3rem;
+    }
+    @media (min-width: 1118px) {
+        font-size: 4rem;
+    }
+}
+
+.icon-ribon1:before {
+    content: "\e900";
+    color: $salmon2;
+    font-size: 1.1rem;
+    @media (min-width: 768px) {
+        font-size: 1.5rem;
+    }
+    @media (min-width: 900px) {
+        font-size: 1.9rem;
+    }
+    @media (min-width: 1118px) {
+        font-size: 1.5rem;
+    }
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-play-rotate:before {
+    content: "\ea1c";
+}
+
+.icon-play:before {
+    content: "\ea1d";
+}
+
+.icon-iconmonstr-instagram-14:before {
+    content: "\e903";
+}
+
+.icon-iconmonstr-facebook-4:before {
+    content: "\e905";
+}
+
+.icon-iconmonstr-twitter-4:before {
+    content: "\e904";
+}
+
+.icon-copyright:before {
+    content: "\e901";
+}
+

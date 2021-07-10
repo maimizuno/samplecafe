@@ -1,0 +1,392 @@
+//
+//menu 
+//
+
+.menu-button {
+    transition-delay: .6s;
+    z-index: 100;
+    position: absolute;
+    top: 19rem;
+    left: 0;
+    width: fit-content;
+    margin: 0;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 200% auto;
+    background-image: linear-gradient(
+        to right,
+        $avocado2 0%,
+        $avocado2 50%,
+        $slate 50%,
+        $slate 100%
+    );
+    transition: background-position ease 0.4s;
+    cursor: pointer;
+    &:hover {
+        background-position: 0 0;
+    }
+    @media (min-width: 768px) {
+        top: 29rem;
+    }
+    @media (min-width: 900px) {
+        top: 33.5rem;
+    }
+    @media (min-width: 1118px) {
+        top: 31rem;
+    }
+    @media (min-width: 1366px) {
+        top: 29rem;
+    }
+}
+
+.menu-border-box {
+    list-style: none;
+    margin: 0;
+	padding: 1.5rem 2rem;
+    border: solid 0.25px $egg;
+    li {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    @media (min-width: 768px) {
+        padding: 2.7rem 3.5rem;
+        border: $defaultBorderEgg;
+        li {
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    @media (min-width: 900px) {
+        padding: 3.3rem 4rem;
+        border: $defaultBorderEgg;
+        li {
+            font-size: 2rem;
+            line-height: 2.2rem;
+            margin-bottom: 1rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    @media (min-width: 1118px) {
+        padding: 2.7rem 3.2rem;
+        border: $defaultBorderEgg;
+        li {
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            margin-bottom: 0.5rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    @media (min-width: 1336px) {
+        padding: 2.7rem 3.5rem;
+    }
+       
+}
+
+.menu-box {
+    background: $egg;
+    margin-left: 3rem;
+    padding: 2rem 0 2rem 2rem;
+    box-sizing: border-box;
+    @media (min-width: 768px) {
+        margin-left: 4rem;
+        padding: 5rem 0 5rem 5rem;
+    }
+    @media (min-width: 900px) {
+        margin-left: 8rem;
+        padding: 8rem 0 8rem 8rem;
+    }
+    @media (min-width: 1118px) {
+        margin-left: 4rem;
+        padding: 5rem 0 5rem 5rem;
+    }
+}
+
+.menu-item {
+    position: relative;
+    padding-bottom: 7rem;
+    font-size: 1.4rem;
+    &:last-child {
+        padding-bottom: 0;
+    }
+    @media (min-width: 768px) {
+        padding-bottom: 18rem;
+    }
+    @media (min-width: 900px) {
+        padding-bottom: 25rem;
+    }
+    @media (min-width: 1118px) {
+        padding-bottom: 10rem;
+    }
+    @media (min-width: 1366px) {
+        padding-bottom: 18rem;
+    }
+}
+
+//h3 rotate
+.breakfast {
+    position: absolute;
+    top: -1.5rem;
+    left: -0.5rem;
+    font-size: 2.4rem;
+    @media (min-width: 768px) {
+        top: -1rem;
+        font-size: 4rem;
+    }
+    @media (min-width: 900px) {
+        top: -3.5rem;
+        font-size: 4.7rem;
+    }
+    @media (min-width: 1118px) {
+        top: 0;
+        left: 0;
+        font-size: 3rem;
+    }
+    @media (min-width: 1366px) {
+        top: -2.5rem;
+        left: -0.5rem;
+        font-size: 4.7rem;
+    }
+    @media (min-width: 1400px) {
+        top: -2rem;
+        left: 0;
+    }
+}
+
+.pastry {
+    position: absolute;
+    top: -1rem;
+    right: 8rem;
+    font-size: 2.5rem;
+    @media (min-width: 768px) {
+        top: -1rem;
+        right: 20rem;
+        font-size: 4.2rem;
+    }
+    @media (min-width: 900px) {
+        top: -2rem;
+        right: 33.5rem;
+        font-size: 5rem;
+    }
+    @media (min-width: 1100px) {
+        right: 41rem;
+    }
+    @media (min-width: 1118px) {
+        top: 0;
+        right: 10rem;
+        font-size: 3.4rem;
+    }
+    @media (min-width: 1200px) {
+        right: 18rem;
+    }
+    @media (min-width: 1300px) {
+        right: 28rem;
+    }
+    @media (min-width: 1366px) {
+        top: -1.5rem;
+        right: 16rem;
+        font-size: 4.9rem;
+    }
+    @media (min-width: 1400px) {
+        right: 19rem;
+    }
+    @media (min-width: 1450px) {
+        top: -1rem;
+        right: 24rem;
+    }
+    @media (min-width: 1490px) {
+        right: 28rem;
+    }
+    @media (min-width: 1500px) {
+        right: 28.5rem;
+    }
+    @media (min-width: 1600px) {
+        right: 39rem;
+    }
+
+}
+
+.bevarage {
+    position: absolute;
+    top: -1.5rem;
+    left: -0.5rem;
+    font-size: 2.4rem;
+    @media (min-width: 768px) {
+        top: -1rem;
+        font-size: 4rem;
+    }
+    @media (min-width: 900px) {
+        top: -3.5rem;
+        font-size: 4.7rem;
+    }
+    @media (min-width: 1118px) {
+        top: 0;
+        left: 0;
+        font-size: 3.2rem;
+    }
+    @media (min-width: 1366px) {
+        top: -2.5rem;
+        font-size: 4.7rem;
+    }
+}
+
+//white text box
+.menu-text-box1 {
+    display: inline-block;
+    width: 40%;
+    background: $white;
+    padding: 1rem 6rem 1rem 2.5rem;
+    @media (min-width: 768px) {
+        width: 36%;
+        padding: 2.5rem 10rem 2.5rem 5rem;
+    }
+    @media (min-width: 1024px) {
+        width: 45%;
+        padding: 2.5rem 17rem 2.5rem 5rem;
+    }
+    @media (min-width: 1118px) {
+        width: 32%;
+    }
+    @media (min-width: 1366px) {
+        width: 36%;
+    }
+    @media (min-width: 1450px) {
+        width: 40%;
+    }
+}
+
+.menu-text-box2 {
+    display: inline-block;
+    background: $white;
+    margin-left: 12rem;
+    padding: 1rem 1rem 1rem 6.7rem;
+    box-sizing: border-box;
+    @media (min-width: 768px) {
+        margin-left: 28rem;
+        padding: 2.5rem 10rem 2.5rem 6rem;
+    }
+    @media (min-width: 1118px) {
+        margin-left: 17rem;
+        padding: 2.5rem 1rem 2.5rem 10rem;
+    }
+    @media (min-width: 1366px) {
+        margin-left: 28rem;
+        padding: 2.5rem 2rem 2.5rem 6rem;
+    }
+    @media (min-width: 1600px) {
+        padding-right: 6rem;
+    }
+}
+
+.menu-text-box3 {
+    display: inline-block;
+    width: 40%;
+    background: $white;
+    padding: 1rem 6rem 1rem 2.5rem;
+    @media (min-width: 768px) {
+        padding: 2.5rem 10rem 2.5rem 5rem;
+    }
+    @media (min-width: 1024px) {
+        width: 45%;
+    }
+    @media (min-width: 1118px) {
+        width: 36%;
+        padding: 2.5rem 20rem 2.5rem 5rem;
+    }
+    @media (min-width: 1366px) {
+        width: 40%;
+    }
+}
+
+//menu img
+.menu1-img {
+    display: inline-block;
+    position: absolute;
+    top: -3rem;
+    right: 1rem;
+    width: 15.5rem;
+    @media (min-width: 768px) {
+        width: 29rem;
+        top: -7rem;
+        right: 3rem;
+    }
+    @media (min-width: 900px) {
+        width: 32rem;
+        top: -10rem;
+    }
+    @media (min-width: 1118px) {
+        width: 20rem;
+        top: -3rem;
+    }
+    @media (min-width: 1366px) {
+        width: 29rem;
+        top: -7rem;
+    }
+}
+
+.menu2-img {
+    display: inline-block;
+    position: absolute;
+    top: -1.5rem;
+    left: 6.7rem;
+    width: 10.5rem;
+    @media (min-width: 768px) {
+        top: -6rem;
+        left: 9rem;
+        width: 21rem;
+    }
+    @media (min-width: 900px) {
+        left: 4.5rem;
+        width: 25rem;
+    }
+    @media (min-width: 1118px) {
+        top: -2rem;
+        left: 9rem;
+        width: 15rem;
+    }
+    @media (min-width: 1366px) {
+        top: -6rem;
+        left: 9rem;
+        width: 21rem;
+    }
+}
+
+.menu3-img {
+    display: inline-block;
+    position: absolute;
+    top: -2.5rem;
+    right: 2.5rem;
+    width: 12.5rem;
+    @media (min-width: 768px) {
+        top: -7rem;
+        right: 6rem;
+        width: 24.5rem;
+    }
+    @media (min-width: 900px) {
+        top: -10rem;
+        width: 29rem;
+    }
+    @media (min-width: 1118px) {
+        top: -2.5rem;
+        right: 3.5rem;
+        width: 18rem;
+    }
+    @media (min-width: 1366px) {
+        top: -7rem;
+        right: 4rem;
+        width: 24.5rem;
+    }
+}
+
+
