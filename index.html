@@ -133,7 +133,7 @@
             </div>
             <div class="about-section3">
                 <img src="./images/about2.jpg" class="about-img2" alt="img">
-                <p data-aos="fade-left" class="about-text4_sp">Our menu provides healthy wholesome dishes, pastries and drinks. We also offer you the opportunity to stock your home with our authentic organic products.</p>
+                <p class="about-text4_sp">Our menu provides healthy wholesome dishes, pastries and drinks. We also offer you the opportunity to stock your home with our authentic organic products.</p>
                 <p data-aos="fade-left" class="about-text4_pc">Our Menu provides you options of healthy wholesome dishes, smoothies, juices, organic coffee and tea, while the store will offer you the opportunity to stock your home with products that are on the forefront of the health and nutrition.
                 </p>
             </div>
@@ -220,7 +220,11 @@
     <script src="./js/carousel.js"></script>
     <script src="./js/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            disable: function () {
+            return window.innerWidth < 1025;
+            }
+        });
     </script>
 </body>
 </html>
