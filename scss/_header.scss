@@ -63,6 +63,7 @@
 }
 
 .cover-left_pc {
+    width: 100%;
     @media (min-width: 1118px) {
         width: calc(100% - 58rem);
         background: $tomato;
