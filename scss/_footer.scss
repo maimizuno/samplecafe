@@ -4,7 +4,7 @@
 
 .footer {
     position: relative;
-    height: 48.5rem;
+    height: 40rem;
     padding: 1rem;
     box-sizing: border-box;
     @media (min-width: 768px) {
@@ -174,7 +174,16 @@
         line-height: 1.5rem;
         a {
             color: #E88A5B;
-
+        }
+        span {
+            font-size: 1.1rem;
+        }
+        transition: .3s;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        &:hover {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
         }
     }
     @media (min-width: 768px) {
@@ -183,6 +192,9 @@
         margin: 2.7rem auto;
         li {
             line-height: 2rem;
+            span {
+                font-size: 1.5rem;
+            }
         }
     }
     @media (min-width: 900px) {
@@ -190,6 +202,9 @@
         margin: 3rem auto;
         li {
             line-height: 2.3rem;
+            span {
+                font-size: 1.9rem;
+            }
         }
     }
     @media (min-width: 1118px) {
@@ -197,6 +212,9 @@
         margin: 2.5rem auto;
         li {
             line-height: 2.3rem;
+            span {
+                font-size: 1.5rem;
+            }
         }
     }
 }
@@ -218,7 +236,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 19rem;
+    margin-top: 18.5rem;
     margin-bottom: 0.5rem;
     padding: 0;
     li {
@@ -226,17 +244,31 @@
         &:last-child {
             margin-right: 0;
         }
+        transition: .3s;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        &:hover {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
         span {
             color: $tomato;
             font-size: 1.6rem;
         }
     }
+    @media (min-width: 768px) {
+        margin-top: 30rem;
+        li {
+            span {
+                font-size: 2.4rem;
+            }
+        }
+    }
     @media (min-width: 900px) {
-        margin-top: 36.5rem;
+        margin-top: 36rem;
         li {
             margin-right: 1.5rem;
             span {
-                color: $tomato;
                 font-size: 3rem;
             }
         }
@@ -246,8 +278,7 @@
         li {
             margin-right: 1rem;
             span {
-                color: $tomato;
-                font-size: 2.4rem;
+                font-size: 2.2rem;
             }
         }
     }
@@ -256,8 +287,7 @@
         li {
             margin-right: 1rem;
             span {
-                color: $tomato;
-                font-size: 3rem;
+                font-size: 2.8rem;
             }
         }
     }
