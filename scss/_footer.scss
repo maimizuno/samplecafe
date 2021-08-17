@@ -9,7 +9,7 @@
     box-sizing: border-box;
     @media (min-width: 768px) {
         height: 65rem;
-        padding: 2rem 0 2rem 8rem;
+        padding: 2rem 0 0 8rem;
     }
     @media (min-width: 900px) {
         height: 78rem;
@@ -19,7 +19,7 @@
         height: 80rem;
     }
     @media (min-width: 1118px) {
-        height: 67rem;
+        height: 68rem;
         width: calc(100% - 55rem);
         padding: 2rem 0 2rem 6rem;
     }
@@ -50,7 +50,7 @@
         box-sizing: border-box;
     }
     @media (min-width: 900px) {
-        height: 75rem;
+        height: 77rem;
     }
     @media (min-width: 1100px) {
         height: 80rem;
@@ -59,7 +59,7 @@
         height: 65rem;
     }
     @media (min-width: 1336px) {
-        height: 64rem;
+        height: 63rem;
     }
 }
 
@@ -92,7 +92,7 @@
 }
 
 .footer-logobox {
-    transition-delay: .7s;
+    transition-delay: .3s;
     margin-top: 12rem;
     background: $egg;
     padding: 0.3rem;
@@ -191,7 +191,7 @@
         font-weight: 400;
         margin: 2.7rem auto;
         li {
-            line-height: 2rem;
+            line-height: 2.2rem;
             span {
                 font-size: 1.5rem;
             }
@@ -201,7 +201,7 @@
         font-size: 1.8rem;
         margin: 3rem auto;
         li {
-            line-height: 2.3rem;
+            line-height: 2.5rem;
             span {
                 font-size: 1.9rem;
             }
@@ -211,7 +211,7 @@
         font-size: 1.4rem;
         margin: 2.5rem auto;
         li {
-            line-height: 2.3rem;
+            line-height: 2.2rem;
             span {
                 font-size: 1.5rem;
             }
@@ -220,15 +220,15 @@
 }
 
 .contact1 {
-    transition-delay: .4s;
-}
-
-.contact2 {
     transition-delay: .5s;
 }
 
-.contact3 {
+.contact2 {
     transition-delay: .6s;
+}
+
+.contact3 {
+    transition-delay: .7s;
 }
 
 .footer-sns {
@@ -313,6 +313,3 @@
         line-height: 2.8rem;
     }
 }
-
-
-

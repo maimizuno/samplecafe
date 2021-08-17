@@ -115,7 +115,7 @@
 }
 
 .cover_opening-hours {
-    transition-delay: .6s;
+    transition-delay: .7s;
     margin: 10.5rem 0 12.5rem;
     color: $egg;
     @media (min-width: 768px) {
@@ -207,14 +207,14 @@
             100% {  opacity: 1;}
         }
         &:first-child {
-            animation-delay: 1s;
+            animation-delay: 1.2s;
         }
         &:nth-child(2) {
-            animation-delay: 1.5s;
+            animation-delay: 1.7s;
         }
         &:last-child {
             border-right: none;
-            animation-delay: 2s;
+            animation-delay: 2.2s;
         }
         a {
             &:hover{
