@@ -14,11 +14,14 @@ main {
         padding-left: 12rem;
     }
     @media (min-width: 1118px) {
-        width: calc(100% - 55rem);
+        width: 55%;
         padding-left: 6rem;
     }
-    @media (min-width: 1366px) {
-        width: calc(100% - 65rem);
+    @media (min-width: 1650px) {
+        width: 50%;
+    }
+    @media (min-width: 2000px) {
+        width: 40%;
     }
 }
 

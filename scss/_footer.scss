@@ -20,13 +20,21 @@
     }
     @media (min-width: 1118px) {
         height: 68rem;
-        width: calc(100% - 55rem);
+        width: 55%;
         padding: 2rem 0 2rem 6rem;
     }
-    @media (min-width: 1336px) {
-        height: 65rem;
-        width: calc(100% - 65rem);
+    @media (min-width: 1366px) {
+        height: 66rem;
+        width: 55%;
         padding: 3rem 0 2rem 6rem;
+    }
+    @media (min-width: 1650px) {
+        height: 80rem;
+        width: 50%;
+        padding: 3rem 0 2rem 6rem;
+    }
+    @media (min-width: 2000px) {
+        width: 40%;
     }
 }
 
@@ -58,8 +66,8 @@
     @media (min-width: 1118px) {
         height: 65rem;
     }
-    @media (min-width: 1336px) {
-        height: 63rem;
+    @media (min-width: 1650px) {
+        height: 70rem;
     }
 }
 
@@ -118,10 +126,11 @@
     border: solid 0.25px $tomato2;
     @media (min-width: 768px) {
         border: solid 1px $tomato2;
-        padding: 0.2rem 3rem 2rem;
+        padding: 0.3rem 5rem 3rem;
     }
     @media (min-width: 1118px) {
         padding-top: 0;
+        padding: 0.2rem 4rem 2rem;
     }
 }
 
@@ -131,16 +140,14 @@
     margin-top: 0.3rem;
     @media (min-width: 768px) {
         font-size: 2.8rem;
-        line-height: 4rem;
+        line-height: 1.4;
     }
     @media (min-width: 900px) {
-        font-size: 3.8rem;
-        line-height: 4.8rem;
+        font-size: 4rem;
         margin-top: 0.5rem;
     }
     @media (min-width: 1118px) {
         font-size: 2.8rem;
-        line-height: 4rem;
         margin-top: 0.3rem;
     }
 }
@@ -153,7 +160,7 @@
         font-size: 1.2rem;
     }
     @media (min-width: 900px) {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     @media (min-width: 1118px) {
         font-size: 1.2rem;
@@ -168,7 +175,8 @@
     align-items: center;
     color: #E88A5B;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
     margin: 1.5rem auto;
     li {
         line-height: 1.5rem;
@@ -176,7 +184,7 @@
             color: #E88A5B;
         }
         span {
-            font-size: 1.1rem;
+            font-size: 1.35rem;
         }
         transition: .3s;
         -webkit-transform: scale(1);
@@ -201,7 +209,7 @@
         font-size: 1.8rem;
         margin: 3rem auto;
         li {
-            line-height: 2.5rem;
+            line-height: 1.6;
             span {
                 font-size: 1.9rem;
             }
@@ -211,9 +219,17 @@
         font-size: 1.4rem;
         margin: 2.5rem auto;
         li {
-            line-height: 2.2rem;
             span {
                 font-size: 1.5rem;
+            }
+        }
+    }
+    @media (min-width: 1650px) {
+        font-size: 1.6rem;
+        margin: 3.5rem auto;
+        li {
+            span {
+            font-size: 1.7rem;
             }
         }
     }
@@ -253,7 +269,7 @@
         }
         span {
             color: $tomato;
-            font-size: 1.6rem;
+            font-size: 2rem;
         }
     }
     @media (min-width: 768px) {
@@ -285,9 +301,9 @@
     @media (min-width: 1366px) {
         margin-top: 28rem;
         li {
-            margin-right: 1rem;
+            margin-right: 1.5rem;
             span {
-                font-size: 2.8rem;
+                font-size: 3rem;
             }
         }
     }

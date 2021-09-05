@@ -39,7 +39,7 @@ body {
     font-weight: 300;
     font-style: normal;
     font-size: 1.5rem;
-    color: $mouse;
+    color: $slate;
     @media (min-width: 768px) {
         font-size: 1.6rem;
     }
@@ -124,22 +124,21 @@ h3 {
 
 p {
     margin: 0;
-    line-height: 1.8rem;
+    line-height: 1.2;
     @media (min-width: 768px) {
         font-size: 1.8rem;
-        line-height: 2.1rem;
     }
     @media (min-width: 900px) {
         font-size: 2rem;
-        line-height: 2.3rem;
     }
     @media (min-width: 1118px) {
         font-size: 1.6rem;
-        line-height: 1.8rem;
     }
     @media (min-width: 1366px) {
         font-size: 1.8rem;
-        line-height: 2.1rem;
+    }
+    @media (min-width: 1650px) {
+        font-size: 2rem;
     }
 }
 

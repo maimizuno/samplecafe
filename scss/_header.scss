@@ -29,19 +29,22 @@
 .wrapper_pc {
     @media (min-width: 1118px) {
         position: fixed;
-        width: 55rem;
+        width: 45%;
         height: 76.8rem;
         top: 0;
         right: 0;
     }
-    @media (min-width: 1366px) {
-        width: 65rem;
+    @media (min-width: 1650px) {
+        width: 50%;
+    }
+    @media (min-width: 2000px) {
+        width: 60%;
     }
 }
 
 //carousel
 .carousel {
-    @media (min-width: 768px) {
+    @media (min-width: 680px) {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -65,7 +68,7 @@
 .cover-left_pc {
     width: 100%;
     @media (min-width: 1118px) {
-        width: calc(100% - 58rem);
+        width: calc(55% - 3rem);
         background: $tomato;
         margin-top: 3rem;
         margin-left: 3rem;
@@ -74,8 +77,11 @@
         border-left: solid 3rem $egg;
         box-sizing: border-box;
     }
-    @media (min-width: 1366px) {
-        width: calc(100% - 68rem);
+    @media (min-width: 1650px) {
+        width: calc(50% - 3rem);
+    }
+    @media (min-width: 2000px) {
+        width: calc(40% - 3rem);
     }
 }
 
