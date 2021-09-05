@@ -28,16 +28,22 @@
             <div class="wrapper_pc">
                 <div class="carousel">
                     <picture>
+                        <source srcset="./images/cover_bigger.jpg" media="(min-width: 2000px)"/>
+                        <source srcset="./images/cover_bigscreen.jpg" media="(min-width: 1650px)"/>
                         <source srcset="./images/cover.jpg" media="(min-width: 1118px)"/>
                         <source srcset="./images/cover_ipad.jpg" media="(min-width: 900px)"/>
                         <img src="./images/cover_sp.jpg" class="cover-img" alt="img"/>
                     </picture>
                     <picture>
+                        <source srcset="./images/cover2_bigger.jpg" media="(min-width: 2000px)"/>
+                        <source srcset="./images/cover2_bigscreen.jpg" media="(min-width: 1650px)"/>
                         <source srcset="./images/cover2.jpg" media="(min-width: 1118px)"/>
                         <source srcset="./images/cover2_ipad.jpg" media="(min-width: 900px)"/>
                         <img src="./images/cover2_sp.jpg" class="cover-img" alt="img"/>
                     </picture>
                     <picture>
+                        <source srcset="./images/cover3_bigger.jpg" media="(min-width: 2000px)"/>
+                        <source srcset="./images/cover3_bigscreen.jpg" media="(min-width: 1650px)"/>
                         <source srcset="./images/cover3.jpg" media="(min-width: 1118px)"/>
                         <source srcset="./images/cover3_ipad.jpg" media="(min-width: 900px)"/>
                         <img src="./images/cover3_sp.jpg" class="cover-img" alt="img"/>
@@ -103,12 +109,39 @@
             </div>
             <div data-aos="flip-right" class="news-container">
                 <div class="news-border-box">
-                    <div class="arrows-box">
-                        <span class="icon-play-rotate"></span>
-                        <span class="icon-play"></span>
+                    <span id="item-1"></span>
+                    <span id="item-2"></span>
+                    <span id="item-3"></span>
+                    <div class="carousel-item item-1">
+                        <div class="carousel-item-text">
+                            <h2 class="news-title">News</h2>
+                            <p class="news-text"><span>June 26, 2021</span>We launched afternoon tea delivery service to homes and offices within 5km from our cafe. <br>Enjoy free delivery for all online purchases over $20!</p>
+                        </div>
+                        <div class="arrows-box">
+                            <a class="arrow arrow-prev" href="#item-3"><span class="icon-play-rotate"></span></a>
+                            <a class="arrow arrow-next" href="#item-2"><span class="icon-play"></span></a>
+                        </div>
                     </div>
-                    <h2 class="news-title">News</h2>
-                    <p class="news-text"><span>June 26, 2021</span>We launched "afternoon tea delivery service" to homes and offices within 5km from our cafe. <br>Enjoy free delivery for all online purchases over $20!</p>
+                    <div class="carousel-item item-2">
+                        <div class="carousel-item-text">
+                            <h2 class="news-title">News</h2>
+                            <p class="news-text"><span>June 4, 2021</span>Our lunch menu has been updated! $10 voucher is available for a healthy barger, fruit sandwitch or fish maffin from the new menu!</p>
+                        </div>
+                        <div class="arrows-box">
+                            <a class="arrow arrow-prev" href="#item-1"><span class="icon-play-rotate"></span></a>
+                            <a class="arrow arrow-next" href="#item-3"><span class="icon-play"></span></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-3">
+                        <div class="carousel-item-text">
+                            <h2 class="news-title">News</h2>
+                            <p class="news-text"><span>May 22, 2021</span>New flavors of fruit & vegitable smoothies have been released! Try it out and give us a review and you'll get a discount coupon for our moning menu!</p>
+                        </div>
+                        <div class="arrows-box">
+                            <a class="arrow arrow-prev" href="#item-2"><span class="icon-play-rotate"></span></a>
+                            <a class="arrow arrow-next" href="#item-1"><span class="icon-play"></span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,21 +153,21 @@
             </section>
             <div class="about-section1">
                 <p class="about-title">Providing healthy, organic breakfast that brings you a great health benefits. </p>
-                <p class="about-text">Sample cafe is founded early 2018 from the passion of creating an environment where you can immerse yourself in healthy organic living, while enjoying a menu created to nourish your body and excite your taste buds.</p>
+                <p class="about-text">Sample cafe is found in early 2018 from the passion of creating an environment where you can immerse yourself in healthy organic living, while enjoying a menu created to nourish your body and excite your taste buds.</p>
                 <p class="about-text2">The daily choice of breakfast has an incredible, cumulative impact on an individual's health and the environment where these ingredients come from. Sample Cafe is a local cafe that chooses the most nutritious, organic ingredients to make its own delicious products every day.</p>
             </div>
             <div class="about-button">
                 <a href="#"><p class="button-text">Learn More</p></a>
             </div>
             <div class="about-section2">
-                <p class="about-text3_sp">Ingredients of our products are sourced directly from the trustworthy growers, ensuring that you will receive only the best certified organic products.</p>
-                <p class="about-text3_pc">Ingredients of our products are sourced directly from the growers, whom they have nurtured special relationships to ensure our customers receive only the freshest and best certified organic products.</p>
+                <p class="about-text_sp section2">Ingredients of our products are sourced directly from the trustworthy growers, ensuring that you will receive only the best certified organic products.</p>
+                <p class="about-text_pc section2">Ingredients of our products are sourced directly from the growers, whom they have nurtured special relationships to ensure our customers receive only the freshest and best certified organic products.</p>
                 <img src="./images/about.jpg" class="about-img" alt="img">
             </div>
             <div class="about-section3">
                 <img src="./images/about2.jpg" class="about-img2" alt="img">
-                <p class="about-text4_sp">Our menu provides healthy wholesome dishes, pastries and drinks. We also offer you the opportunity to stock your home with our authentic organic products.</p>
-                <p class="about-text4_pc">Our Menu provides you options of healthy wholesome dishes, smoothies, juices, organic coffee and tea, while the store will offer you the opportunity to stock your home with products that are on the forefront of the health and nutrition.
+                <p class="about-text_sp section3">Our menu provides healthy wholesome dishes, pastries and drinks. We also offer you the opportunity to stock your home with our authentic organic products.</p>
+                <p class="about-text_pc section3">Our Menu provides you options of healthy wholesome dishes, smoothies, juices, organic coffee and tea, while the store will offer you the opportunity to stock your home with products that are on the forefront of the health and nutrition.
                 </p>
             </div>
             <div class="about-nav_pc">
