@@ -1,2 +1,2 @@
 # samplecafe
-imaginary cafe website 
+imaginary cafe website (top page only)
