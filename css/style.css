@@ -1766,18 +1766,6 @@ main {
   }
 }
 
-.icon-facebook:before {
-  content: "\ea90";
-}
-
-.icon-instagram:before {
-  content: "\ea92";
-}
-
-.icon-twitter:before {
-  content: "\ea96";
-}
-
 .icon-play:before {
   padding-right: 0.5rem;
   font-size: 1.2rem;
@@ -1787,18 +1775,6 @@ main {
   .icon-play:before {
     font-size: 1.6rem;
   }
-}
-
-.icon-iconmonstr-instagram-14:before {
-  content: "\e903";
-}
-
-.icon-iconmonstr-facebook-4:before {
-  content: "\e905";
-}
-
-.icon-iconmonstr-twitter-4:before {
-  content: "\e904";
 }
 
 .icon-copyright:before {
