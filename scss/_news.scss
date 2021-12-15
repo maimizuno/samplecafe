@@ -3,179 +3,180 @@
 //
 
 .news-area {
-    position: relative;
+  position: relative;
 }
 
 .news-container {
-    background: $avocado;
-    margin: 5rem 5rem 0 3rem;
-    padding: 0.3rem;
-    box-sizing: border-box;
-    @media (min-width: 430px) {
-        margin-top: 40%;
+  background: $avocado;
+  margin: 5rem 5rem 0 3rem;
+  padding: 0.3rem;
+  box-sizing: border-box;
+  @media (min-width: 430px) {
+    margin-top: 40%;
+  }
+  @media (min-width: 768px) {
+    margin: 8rem;
+    padding: 0.5rem;
+  }
+  @media (min-width: 900px) {
+    margin: 10rem;
+  }
+  @media (min-width: 1025px) {
+    &:hover {
+      background: $egg;
+      transition: 0.4s;
     }
-    @media (min-width: 768px) {
-        margin: 8rem;
-        padding: 0.5rem;
-    }
-    @media (min-width: 900px) {
-        margin: 10rem;
-    }
-    @media (min-width: 1025px) {
-        &:hover {
-            background: $egg;
-            transition: .4s;
-        }
-    }
-    @media (min-width: 1118px) {
-        margin: 6rem;
-    }
-    @media (min-width: 1366px) {
-        margin: 8rem;
-    }
+  }
+  @media (min-width: 1118px) {
+    margin: 6rem;
+  }
+  @media (min-width: 1366px) {
+    margin: 8rem;
+  }
 }
 
 .news-border-box {
-    min-height: 15rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: solid 0.25px $egg;
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-    background-size: 200% auto;
-    background-image: linear-gradient(
-        to right,
-        $egg 0%,
-        $egg 50%,
-        $avocado 50%,
-        $avocado 100%
-    );
-    transition: background-position ease .4s;
-    cursor: pointer;
-    @media (min-width: 768px) {
-        min-height: 22rem;
-        border: $defaultBorderEgg;
+  min-height: 15rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 0.25px $egg;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    to right,
+    $egg 0%,
+    $egg 50%,
+    $avocado 50%,
+    $avocado 100%
+  );
+  transition: background-position ease 0.4s;
+  cursor: pointer;
+  @media (min-width: 768px) {
+    min-height: 22rem;
+    border: $defaultBorderEgg;
+  }
+  @media (min-width: 1025px) {
+    min-height: 19rem;
+    &:hover {
+      background-position: 0 0;
     }
-    @media (min-width: 1025px) {
-        min-height: 19rem;
-        &:hover {
-            background-position: 0 0;
-        }
-    }
+  }
 }
 
 .carousel-item {
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 /*Select every element*/
 [id^="item"] {
-    display: none;
+  display: none;
 }
 
 .item-1 {
-    z-index: 2;
-    opacity: 1;
+  z-index: 2;
+  opacity: 1;
 }
 
 *:target ~ .item-1 {
-    opacity: 0;
+  opacity: 0;
 }
 
 #item-1:target ~ .item-1 {
-    opacity: 1;
+  opacity: 1;
 }
 
-#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
-    z-index: 3;
-    opacity: 1;
+#item-2:target ~ .item-2,
+#item-3:target ~ .item-3 {
+  z-index: 3;
+  opacity: 1;
 }
 
 .arrows-box {
-    width: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 48%;
-    left: 0;
-    color: $egg;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 46%;
+  left: 0;
+  color: $egg;
+  font-size: 1.5rem;
+  @media (min-width: 900px) {
+    font-size: 2rem;
+    top: 45%;
     font-size: 1.5rem;
-    @media (min-width: 900px) {
+  }
+  @media (min-width: 1025px) {
+    &:hover {
+      a {
+        color: $avocado;
+        transition: 0.4s;
+        z-index: 3;
         font-size: 2rem;
-        top: 46%;
-        font-size: 1.5rem;
+      }
     }
-    @media (min-width: 1025px) {
-        &:hover {
-            a {
-                color: $avocado;
-                transition: .4s;
-                z-index: 3;
-                font-size: 2rem;
-            }
-        }
-    }
+  }
 }
 
 .news-title {
-    font-size: 2rem;
-    @media (min-width: 768px) {
-        font-size: 2.8rem;
-    }
-    @media (min-width: 900px) {
-        font-size: 3.6rem;
-    }
-    @media (min-width: 1118px) {
-        font-size: 3.2rem;
-    }
+  font-size: 2rem;
+  @media (min-width: 768px) {
+    font-size: 2.8rem;
+  }
+  @media (min-width: 900px) {
+    font-size: 3.6rem;
+  }
+  @media (min-width: 1118px) {
+    font-size: 3.2rem;
+  }
 }
 
 .carousel-item-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 2.5rem;
-    @media (min-width: 768px) {
-        padding: 3rem 3.5rem;
-    }
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2.5rem;
+  @media (min-width: 768px) {
+    padding: 3rem 3.5rem;
+  }
 }
 
 .news-text {
-    display:-webkit-box;
-        -webkit-box-orient:vertical;
-        -webkit-line-clamp: 4;
-    span {
-        margin-right: 1rem;
-    }
-    font-size: 1.4rem;
-    color: $slate;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    @media (min-width: 768px) {
-        height: 7.3rem;
-        font-size: 1.8rem;
-        line-height: 2.1rem;
-    }
-    @media (min-width: 900px) {
-        height: 9rem;
-        font-size: 2.2rem;
-        line-height: 2.5rem;
-    }
-    @media (min-width: 1118px) {
-        height: 6.5rem;
-        font-size: 1.8rem;
-        line-height: 2.1rem;
-    }
-    @media (min-width: 1366px) {
-        height: 7.3rem;
-    }
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  span {
+    margin-right: 1rem;
+  }
+  font-size: 1.4rem;
+  color: $slate;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media (min-width: 768px) {
+    height: 7.3rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+  @media (min-width: 900px) {
+    height: 9rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+  @media (min-width: 1118px) {
+    height: 6.5rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+  @media (min-width: 1366px) {
+    height: 7.3rem;
+  }
 }
